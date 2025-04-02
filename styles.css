@@ -182,9 +182,10 @@ h2 {
 }
 
 .alto-contraste .nav-link{
-  color:var(--alto-contraste)
-}
+  color:var(--alto-contraste-link)
+  }
 
+  
 .alto-contraste #tropicalia{
     background: none;
 }
@@ -196,3 +197,10 @@ h2 {
 .alto-contraste .fundo-galeria{
     background: none;
 }
+
+  .alto-contraste .botao-inicio,
+  .alto-contraste .formulario button,
+  .alto-contraste .bnt-primary{
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo);}
+
